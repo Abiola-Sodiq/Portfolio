@@ -12,7 +12,7 @@ const Nav = () => {
         <li>Testimonial</li>
         <li>Pricing</li>
       </ul>
-      <button className=" w-28 h-12 bg-[#FF5A05] rounded-md text-white font-semibold">Get Started</button>
+      <button className=" w-32 h-12 bg-[#FF5A05] rounded-md text-white font-semibold">Get Started</button>
     </div>
   );
 };

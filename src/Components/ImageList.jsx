@@ -9,17 +9,13 @@ import img7 from "../Assets/new-Microsoft-logo-removebg-preview 1.png"
 
 const ImageList = () => {
     const images = [
+        img6,
+        img3,
+        img5,
+        img7,
         img1,
         img2,
-        img3,
         img4,
-        img5,
-        img6,
-        img7,
-        img4,
-        img5,
-        img6,
-        img7
     ]
 
  return   images.map((image) => {
