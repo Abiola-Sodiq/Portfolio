@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../Assets/logo.png";
+import Button from "./Button";
 
 const Nav = () => {
   return (
@@ -12,7 +13,7 @@ const Nav = () => {
         <li>Testimonial</li>
         <li>Pricing</li>
       </ul>
-      <button className=" w-32 h-12 bg-[#FF5A05] rounded-md text-white font-semibold">Get Started</button>
+     <Button/>
     </div>
   );
 };

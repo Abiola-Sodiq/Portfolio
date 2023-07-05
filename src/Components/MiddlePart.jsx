@@ -1,12 +1,13 @@
 import React from "react";
 import Pic from "../Assets/Group 186.png";
 import mark from "../Assets/Group 1.png";
+import Button from "./Button";
 
 const MiddlePart = () => {
   return (
     <div className=" w-screen h-[25%] m-auto flex justify-around items-center ">
       <img src={Pic} alt="" className=" w-[37%] mt-20" />
-      <div className=" w-[28%] flex flex-wrap align-top gap-2">
+      <div className=" w-[28%] flex flex-col align-top gap-2">
         <h6 className=" text-base font-semibold text-[#FF5A05]">
           Lorem ipsum dolor sit amet.
         </h6>
@@ -17,17 +18,18 @@ const MiddlePart = () => {
           gravida feugiat neque, ipsum faucibus. Pharetra vel suspendisse mi
           odio a velit feugiat sapien.
         </h3>
+        <div className=" flex flex-row gap-10">
+          <div className=" flex flex-row gap-3">
+            <img src={mark} alt="" />
 
-        <div className=" flex flex-row" > 
-          <img src={mark} alt="" />
-          <span >
-          <p className="text-lg font-bold">High Analysis</p>
-          </span>
-          <img src={mark} alt="" />
-          <span >
-          <p className=" text-lg font-bold">Certified Institute</p>
-          </span>
+            <p className="text-base font-bold">High Analysis</p>
+          </div>
+          <div className=" flex flex-row gap-3">
+            <img src={mark} alt="" />
+            <p className=" text-base font-bold">Certified Institute</p>
+          </div>
         </div>
+        <Button />
       </div>
     </div>
   );

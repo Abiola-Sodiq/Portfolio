@@ -1,5 +1,6 @@
 import React from "react";
 import Photo from '../Assets/Pixel True Mockup 1.png'
+import Button from "./Button";
 
 const Headcontent = () => {
   return (
@@ -13,7 +14,7 @@ const Headcontent = () => {
       <h5 className=" font-medium text-base pt-2 "> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
         Facilis eaque explicabo aliquid error voluptate deserunt est corporis aut.</h5>
       <div className=" flex gap-5 mt-5">
-        <button className=" w-32 h-12 bg-[#FF5A05] rounded-md text-white font-semibold">Get Started</button>
+        <Button/>
         <button className=" w-32 h-12 bg-inherit rounded-md text-white font-semibold border-solid border-white border">Free Trial</button>
       </div>
       </div>
